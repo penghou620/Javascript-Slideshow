@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 960px;
+	margin: auto;
+	background-color: #f0f0f0;
+}
+h1{
+	color: #e3e0e0;
+	margin: 10px 0 10px 0;
+}
+#slideshow{
+	width: 560px;
+	height: 280px;
+	margin: auto;
+	_outline: 1px solid #cccccc;
+	box-shadow: 0px 0px 4px 1px rgba(255,255,255,0.8);
+	position: relative;
+}
+#slideshow-image{
+	width: 560px;
+	height: 280px;
+	outline: 1px solid black;
+	_background-image: url('../images/first-ios-app.png');
+}
+#slideshow-text{
+	width: 340px;
+	height: 80px;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.3);
+}
+#slideshow-title{
+	width: 340px;
+	height: 30px;
+	padding: 10px;
+	color: white;
+}
+
+#slideshow-subtitle{
+	width: 340px;
+	height: 20px;
+	padding: 0px 10px 10px 10px;
+	color: white;
+}
+#slideshow-slides{
+	width: 220px;
+	height: 80px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.3);
+}
+#slideshow-slides .slide{
+	width: 40px;
+	height: 40px;
+	margin-top:20px;
+	margin-right: 20px;
+	box-shadow: 0 0 3px 1px rgba(255,255,255,0.8);
+	float: right;
+}
